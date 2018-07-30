@@ -51,5 +51,5 @@ while t > 0:
     a = set(map(int,input().split()))
     input()
     b = set(map(int,input().split()))
-    print("True" if len(a.intersection(b)) == n else "False")
+    print(len(a.intersection(b))==n)
     t -= 1
