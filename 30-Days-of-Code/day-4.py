@@ -58,7 +58,7 @@ class Person:
             print("You are old.")
     def yearPasses(self):
         # Increment the age of the person in here
-        self.age += 1t = int(input())
+        self.age += 1
 
 t = int(input())
 for i in range(0, t):
