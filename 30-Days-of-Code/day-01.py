@@ -31,7 +31,7 @@ HackerRank is the best place to learn and practice coding!
 """
 i = 4
 d = 4.0
-s = 'HackerRank 
+s = 'HackerRank'
 
 # Read and save an integer, double, and String to your variables.
 i1 = int(input())
