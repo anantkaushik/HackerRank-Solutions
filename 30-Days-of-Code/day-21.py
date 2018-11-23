@@ -27,12 +27,12 @@ Your printArray function should print each element of its generic array paramete
 #include <string>
 
 using namespace std;
-template <typename t>
-void printArray (vector<t> v_) {
-    for (auto &element : v_) {
-        cout << element << endl;
-    }
+
+template <typename T> void printArray(vector<T> a) {
+  for (T i : a)
+    cout << i << endl;
 }
+
 int main() {
 	int n;
 	
